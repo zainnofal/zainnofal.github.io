@@ -1,0 +1,16 @@
+---
+title: "Welcome"
+---
+
+# 👋 Hi, I'm Zain Nofal
+
+I’m a Master’s student at UBC.  
+I specialize in **machine learning, data visualization, and AI applications**.  
+
+---
+
+## 🔍 What I Do
+- 📊 Data analysis & visualization 
+- 🤖 Machine learning & AI 
+- ⚡ Building intelligent applications  
+
