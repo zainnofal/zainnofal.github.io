@@ -1,0 +1,73 @@
+---
+title: "Projects & Experience"
+format:
+  html:
+    css: styles.css
+---
+
+<div class="container">
+
+<section class="fade-in card">
+# 💼 Work Experience
+
+### Dynamic Solutions and Technology — BI Intern
+*Lahore, Pakistan | Jul 2024 - Sep 2024*  
+- Developed **Power BI Dashboards** for churn analysis and HR analytics using advanced DAX functions.  
+- Built a **Resume Screening application** with BERT NLP, automating candidate evaluation.  
+- Collaborated on client **ERP data analysis**, delivering actionable insights through interactive dashboards.
+
+### KPMG — IT and Advisory Intern
+*Lahore, Pakistan | Jul 2023 – Aug 2023*  
+- Engineered **data models and visual representations** using Microsoft Visio for data warehousing and governance.  
+- Contributed to **data governance policies**, improving data accuracy and trust.  
+- Summarized **DAMA-DMBOK chapters**, providing insights to the ITA department team.
+</section>
+
+<section class="fade-in card">
+# 🏆 Projects
+
+### CurveBall — Final Year Project
+*Sep 2024 – Jun 2025*  
+- Developed a **cricket analytics system** with T20/ODI score predictors, a genetic algorithm-based team generator, and video analytics using scikit-learn, OpenCV, and NumPy.  
+- Built an **interactive dashboard** for real-time performance tracking, match simulations, and player analytics.  
+- Integrated an **AI-powered chatbot** and machine learning models for score prediction and team optimization.
+
+### Sentiment-Driven Stock Prediction
+*Sep 2024 – Jan 2025*  
+- Built a **sentiment analysis pipeline** scraping DAWN News headlines and calculating sentiment scores.  
+- Combined sentiment data with **HBL stock prices** to train an LSTM model.  
+- Created **interactive visualizations** for time series and stock attribute distributions.
+
+### Coin Canvas
+*Sep 2023 – Jan 2024*  
+- Applied **web scraping** for real-time cryptocurrency insights and historical data.  
+- Used **Power BI** for ETL and robust visualizations.  
+- Designed **3 interactive dashboards**, empowering users with actionable insights.
+</section>
+
+<section class="fade-in card">
+# 🎓 Education
+
+- **Ghulam Ishaq Khan Institute (GIKI)** — BSc Data Science, Jun 2025  
+  Relevant Coursework: Parallel Processing, Data Engineering, Generative AI, NLP, Data Mining, Data Structures, AI, Databases, Inferential Statistics, Data Warehousing, Data Network & Security
+
+</section>
+
+<section class="fade-in card">
+# 🎯 Skills & Interests
+
+**Skills:** Python, Data Analysis, Machine Learning, Generative AI, Data Visualization, NLP, Web Scraping, C++, Data Engineering, SQL/NoSQL  
+**Interests:** AI, Data Science, Programming, Piano, Debating, Basketball
+</section>
+
+<section class="fade-in card">
+# 🎭 Co-Curricular Activities
+
+- **Character Building Society (General Secretary)** — Feb 2022 – Jun 2025  
+  Led TEDxGIKI and Masterchef x GIKI events with 200+ student turnout.  
+
+- **GIKI Debate Team (Executive Member)** — Feb 2023 – Jun 2025  
+  Participated in national debating tournaments, enhancing **research, argumentation, and teamwork** skills.
+</section>
+
+</div>

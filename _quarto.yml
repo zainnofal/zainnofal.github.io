@@ -5,10 +5,10 @@ project:
 website:
   title: "Zain Nofal"
   navbar:
-    left:
-      - href: index.qmd
-        text: Home
+    right:
       - about.qmd
+      - projects.qmd
+      - index.qmd
 
 format:
   html:
