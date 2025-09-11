@@ -1,62 +1,122 @@
-/* Dark mode professional theme */
+/* =======================================
+   Professional Dark Theme for Portfolio
+======================================= */
+
+/* ---------- Body & Layout ---------- */
 body {
   font-family: "Inter", sans-serif;
-  background-color: #121212; /* Dark background */
-  color: #e0e0e0;            /* Light text for contrast */
-  line-height: 1.6;
+  background-color: #0d1117;
+  color: #e0e0e0;
+  line-height: 1.75;
   margin: 0;
   padding: 0;
 }
 
-h1, h2, h3 {
-  color: #ffffff; /* Brighter headings */
-  font-weight: 700;
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem;
 }
 
+/* ---------- Headings ---------- */
+h1, h2, h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  font-weight: 800;
+  letter-spacing: 0.5px;
+}
+
+h2 {
+  color: #4da6ff; /* Accent color for section titles */
+}
+
+/* ---------- Paragraphs & Links ---------- */
 p, li, a {
-  color: #cccccc; /* Softer text for readability */
+  color: #cfcfcf;
 }
 
 a {
-  color: #4da6ff; /* Professional accent color */
+  color: #4da6ff;
   text-decoration: none;
   transition: color 0.2s ease-in-out;
 }
 
 a:hover {
-  color: #1a73e8; /* Hover accent */
+  color: #1a73e8;
 }
 
+/* ---------- Navbar ---------- */
 .navbar {
   font-weight: 600;
-  background-color: #1f1f1f; /* Dark navbar */
+  background-color: #141b22;
   padding: 1rem 2rem;
   border-bottom: 1px solid #333;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  backdrop-filter: blur(10px);
 }
 
 .navbar a {
   color: #e0e0e0;
-  margin-left: 1rem;
+  margin-left: 1.5rem;
+  position: relative;
+  transition: 0.3s;
+}
+
+.navbar a::after {
+  content: "";
+  display: block;
+  height: 2px;
+  background: #4da6ff;
+  transition: width 0.3s;
+  width: 0;
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+}
+
+.navbar a:hover::after {
+  width: 100%;
 }
 
 .navbar a:hover {
   color: #4da6ff;
 }
 
+/* ---------- Cards ---------- */
+.card {
+  background-color: #1a1f27;
+  border-radius: 12px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 24px rgba(0,0,0,0.5);
+}
+
+/* ---------- Buttons ---------- */
 button {
-  background-color: #2c3e50;
-  color: #ffffff;
+  background: linear-gradient(135deg, #4da6ff, #1a73e8);
+  color: #fff;
   border: none;
-  padding: 0.5rem 1rem;
-  border-radius: 0.3rem;
+  padding: 0.6rem 1.5rem;
+  border-radius: 30px;
   cursor: pointer;
-  transition: background-color 0.2s ease-in-out;
+  font-weight: 600;
+  transition: all 0.3s;
 }
 
 button:hover {
-  background-color: #1a252f;
+  box-shadow: 0 0 15px rgba(77,166,255,0.7);
+  transform: translateY(-2px);
 }
 
+/* ---------- Code & Pre ---------- */
 code, pre {
   background-color: #1e1e1e;
   color: #f5f5f5;
@@ -65,12 +125,22 @@ code, pre {
   font-family: "Fira Code", monospace;
 }
 
-/* Optional: subtle card style for content blocks */
-.card {
-  background-color: #1f1f1f;
-  border: 1px solid #333;
-  border-radius: 8px;
-  padding: 1rem;
-  margin-bottom: 1.5rem;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+/* ---------- Fade-in Animation ---------- */
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeIn 1s forwards;
+  animation-delay: 0.3s;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ---------- Section Padding ---------- */
+section {
+  padding: 4rem 0;
 }

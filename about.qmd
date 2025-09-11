@@ -1,16 +1,32 @@
 ---
 title: "About Me"
+format:
+  html:
+    css: styles.css
 ---
 
-I am currently pursuing a Master of Data Science at the University of British Columbia (UBC). I recently graduated with a BSc in Data Science from GIKI.
+<div class="container">
 
-I have hands-on experience in machine learning, NLP, Python, data analysis, data visualization, data engineering, and Power BI through multiple academic projects and internships. I’ve interned at KPMG and Dynamic Solutions, working on data governance, dashboards, and NLP applications.
+<section class="fade-in card">
+# About Me
 
-I am passionate about leveraging data science to solve real-world problems, with particular interest in elections transparency, automation, and sports analytics, both in Pakistan and globally.
+I am currently pursuing a **Master of Data Science at the University of British Columbia (UBC)**. I recently graduated with a **BSc in Data Science from GIKI**.
 
----
+I have hands-on experience in **machine learning, NLP, Python, data analysis, data visualization, data engineering, and Power BI** through multiple academic projects and internships. I’ve interned at **KPMG** and **Dynamic Solutions**, working on **data governance, dashboards, and NLP applications**.
 
+I am passionate about leveraging data science to solve real-world problems, with particular interest in **elections transparency, automation, and sports analytics**.
+</section>
+
+<section class="fade-in card">
 ## 🎓 Education
-- **University of British Columbia (UBC)** — MSc Data Science (Pursuing)  
-- **Ghulam Ishaq Khan Institute (GIKI)** — BS Data Science  
+- **University of British Columbia (UBC)** — MSc Data Science *(Pursuing)*  
+- **Ghulam Ishaq Khan Institute (GIKI)** — BSc Data Science
+</section>
 
+<section class="fade-in card">
+## 💼 Internships & Experience
+- **KPMG** — Data Governance & Reporting  
+- **Dynamic Solutions** — Data Analytics, Power BI & NLP Applications
+</section>
+
+</div>

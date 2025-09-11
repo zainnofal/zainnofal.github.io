@@ -4,27 +4,41 @@
     "href": "about.html",
     "title": "About Me",
     "section": "",
-    "text": "I am currently pursuing a Master of Data Science at the University of British Columbia (UBC). I recently graduated with a BSc in Data Science from GIKI.\nI have hands-on experience in machine learning, NLP, Python, data analysis, data visualization, data engineering, and Power BI through multiple academic projects and internships. I’ve interned at KPMG and Dynamic Solutions, working on data governance, dashboards, and NLP applications.\nI am passionate about leveraging data science to solve real-world problems, with particular interest in elections transparency, automation, and sports analytics, both in Pakistan and globally."
+    "text": "I am currently pursuing a Master of Data Science at the University of British Columbia (UBC). I recently graduated with a BSc in Data Science from GIKI.\nI have hands-on experience in machine learning, NLP, Python, data analysis, data visualization, data engineering, and Power BI through multiple academic projects and internships. I’ve interned at KPMG and Dynamic Solutions, working on data governance, dashboards, and NLP applications.\nI am passionate about leveraging data science to solve real-world problems, with particular interest in elections transparency, automation, and sports analytics.\n\n\n\n\n\nUniversity of British Columbia (UBC) — MSc Data Science (Pursuing)\n\nGhulam Ishaq Khan Institute (GIKI) — BSc Data Science\n\n\n\n\n\n\n\nKPMG — Data Governance & Reporting\n\nDynamic Solutions — Data Analytics, Power BI & NLP Applications"
   },
   {
     "objectID": "about.html#education",
     "href": "about.html#education",
     "title": "About Me",
-    "section": "🎓 Education",
-    "text": "🎓 Education\n\nUniversity of British Columbia (UBC) — MSc Data Science (Pursuing)\n\nGhulam Ishaq Khan Institute (GIKI) — BS Data Science"
+    "section": "",
+    "text": "University of British Columbia (UBC) — MSc Data Science (Pursuing)\n\nGhulam Ishaq Khan Institute (GIKI) — BSc Data Science"
+  },
+  {
+    "objectID": "about.html#internships-experience",
+    "href": "about.html#internships-experience",
+    "title": "About Me",
+    "section": "",
+    "text": "KPMG — Data Governance & Reporting\n\nDynamic Solutions — Data Analytics, Power BI & NLP Applications"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Welcome",
+    "title": "Zain Nofal | Data Scientist",
     "section": "",
-    "text": "I’m a Master’s student at UBC.\nI specialize in machine learning, data visualization, and AI applications.\n\n\n\n\n📊 Data analysis & visualization\n🤖 Machine learning & AI\n⚡ Building intelligent applications"
+    "text": "I am currently pursuing a Master of Data Science at the University of British Columbia (UBC). I recently graduated with a BSc in Data Science from GIKI.\nI have hands-on experience in machine learning, NLP, Python, data analysis, data visualization, data engineering, and Power BI through multiple academic projects and internships. I’ve interned at KPMG and Dynamic Solutions, working on data governance, dashboards, and NLP applications.\nI am passionate about leveraging data science to solve real-world problems, with particular interest in elections transparency, automation, and sports analytics."
   },
   {
-    "objectID": "index.html#what-i-do",
-    "href": "index.html#what-i-do",
-    "title": "Welcome",
-    "section": "",
-    "text": "📊 Data analysis & visualization\n🤖 Machine learning & AI\n⚡ Building intelligent applications"
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "Zain Nofal | Data Scientist",
+    "section": "🎓 Education",
+    "text": "🎓 Education\n\nUniversity of British Columbia (UBC) — MSc Data Science (Pursuing)\n\nGhulam Ishaq Khan Institute (GIKI) — BSc Data Science"
+  },
+  {
+    "objectID": "index.html#internships-experience",
+    "href": "index.html#internships-experience",
+    "title": "Zain Nofal | Data Scientist",
+    "section": "💼 Internships & Experience",
+    "text": "💼 Internships & Experience\n\nKPMG — Data Governance & Reporting\n\nDynamic Solutions — Data Analytics, Power BI & NLP Applications"
   }
 ]
