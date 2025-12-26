@@ -1,73 +1,141 @@
 ---
-title: "Projects & Experience"
-format:
-  html:
-    css: styles.css
+title: ""
 ---
 
-<div class="container">
+```{=html}
+<div class="page-layout">
 
-<section class="fade-in card">
-# 💼 Work Experience
+  <div class="page-title">
+    Projects
+  </div>
 
-### Dynamic Solutions and Technology — BI Intern
-*Lahore, Pakistan | Jul 2024 - Sep 2024*  
-- Developed **Power BI Dashboards** for churn analysis and HR analytics using advanced DAX functions.  
-- Built a **Resume Screening application** with BERT NLP, automating candidate evaluation.  
-- Collaborated on client **ERP data analysis**, delivering actionable insights through interactive dashboards.
+  <div class="page-content">
 
-### KPMG — IT and Advisory Intern
-*Lahore, Pakistan | Jul 2023 – Aug 2023*  
-- Engineered **data models and visual representations** using Microsoft Visio for data warehousing and governance.  
-- Contributed to **data governance policies**, improving data accuracy and trust.  
-- Summarized **DAMA-DMBOK chapters**, providing insights to the ITA department team.
-</section>
+    <!-- CurveBall -->
+    <div class="content-card">
+      <h3>
+        CurveBall — Cricket Analytics Platform
+      </h3>
+      <em>2024–2025 · Final Year Project</em>
+      <ul>
+        <li>Built a full-stack cricket analytics web application featuring T20/ODI score prediction and genetic algorithm-based team selection.</li>
+        <li>Implemented machine learning models using scikit-learn and NumPy for performance prediction and team optimization.</li>
+        <li>Integrated OpenCV-based video analytics for batting and bowling performance analysis.</li>
+        <li>Designed interactive dashboards and an AI-powered chatbot for match simulations and player insights.</li>
+      </ul>
+    </div>
 
-<section class="fade-in card">
-# 🏆 Projects
+    <!-- Vancouver Crime Predictor -->
+    <div class="content-card">
+      <h3>
+        <a href="https://github.com/nicolelink33/Vancouver_Crime_Predictor" target="_blank" rel="noopener">
+          Vancouver Crime Predictor
+        </a>
+      </h3>
+      <em>2025</em>
+      <ul>
+        <li>Built a reproducible machine learning pipeline using Docker and Docker Compose to analyze 530,000+ Vancouver crime records.</li>
+        <li>Performed data preprocessing and feature engineering, including temporal and spatial feature extraction.</li>
+        <li>Trained and compared Logistic Regression, KNN, and SVM models for crime type classification.</li>
+        <li>Generated actionable insights and visualizations to support data-driven resource allocation strategies.</li>
+      </ul>
+    </div>
 
-### CurveBall — Final Year Project
-*Sep 2024 – Jun 2025*  
-- Developed a **cricket analytics system** with T20/ODI score predictors, a genetic algorithm-based team generator, and video analytics using scikit-learn, OpenCV, and NumPy.  
-- Built an **interactive dashboard** for real-time performance tracking, match simulations, and player analytics.  
-- Integrated an **AI-powered chatbot** and machine learning models for score prediction and team optimization.
+    <!-- AI Interview Coach -->
+    <div class="content-card">
+      <h3>
+        <a href="https://github.com/zainnofal/AI-Interview-Coach" target="_blank" rel="noopener">
+          AI Interview Coach
+        </a>
+      </h3>
+      <em>2025</em>
+      <ul>
+        <li>Developed a fully voice-driven AI interview coaching system that conducts mock interviews and provides real-time feedback.</li>
+        <li>Integrated OpenAI Whisper for speech-to-text, Text-to-Speech for natural interaction, and GPT-based evaluation.</li>
+        <li>Built a Flask backend and React frontend to manage audio processing, interview logic, and AI inference.</li>
+        <li>Enabled role-specific interview customization and precise response timing controls.</li>
+      </ul>
+    </div>
 
-### Sentiment-Driven Stock Prediction
-*Sep 2024 – Jan 2025*  
-- Built a **sentiment analysis pipeline** scraping DAWN News headlines and calculating sentiment scores.  
-- Combined sentiment data with **HBL stock prices** to train an LSTM model.  
-- Created **interactive visualizations** for time series and stock attribute distributions.
+    <!-- Chicago Crime Hotspots -->
+    <div class="content-card">
+      <h3>
+        <a href="https://github.com/zainnofal/Predicting-Crime-Hotspots" target="_blank" rel="noopener">
+          Predicting Crime Hotspots in Chicago
+        </a>
+      </h3>
+      <em>2025</em>
+      <ul>
+        <li>Analyzed 7.8M+ crime records from the Chicago Police Department using Apache Spark.</li>
+        <li>Performed large-scale data preprocessing and temporal feature extraction.</li>
+        <li>Applied K-Means clustering on geospatial coordinates to identify high-density crime hotspots.</li>
+        <li>Produced hotspot visualizations and trend analyses to support public safety planning.</li>
+      </ul>
+    </div>
 
-### Coin Canvas
-*Sep 2023 – Jan 2024*  
-- Applied **web scraping** for real-time cryptocurrency insights and historical data.  
-- Used **Power BI** for ETL and robust visualizations.  
-- Designed **3 interactive dashboards**, empowering users with actionable insights.
-</section>
+    <!-- Sentiment Driven Stock Prediction -->
+    <div class="content-card">
+      <h3>
+        <a href="https://github.com/zainnofal/The-Impact-of-News-Events-On-Stock-Prices-An-NLP-Approach" target="_blank" rel="noopener">
+          Sentiment-Driven Stock Prediction
+        </a>
+      </h3>
+      <em>2024–2025</em>
+      <ul>
+        <li>Built a sentiment analysis pipeline by scraping DAWN News headlines and computing sentiment scores.</li>
+        <li>Integrated sentiment features with HBL stock price data to construct a time-series dataset.</li>
+        <li>Trained LSTM models to evaluate the impact of news sentiment on stock price movements.</li>
+        <li>Developed interactive visualizations to analyze trends and model performance.</li>
+      </ul>
+    </div>
 
-<section class="fade-in card">
-# 🎓 Education
+    <!-- Resume Screener -->
+    <div class="content-card">
+      <h3>
+        <a href="https://github.com/zainnofal/Resume-Screener" target="_blank" rel="noopener">
+          Resume Screener Application
+        </a>
+      </h3>
+      <em>2024</em>
+      <ul>
+        <li>Built an automated resume screening system using BERT-based NLP models.</li>
+        <li>Implemented semantic similarity scoring to match resumes against job descriptions.</li>
+        <li>Designed preprocessing pipelines for resume text extraction, cleaning, and embedding generation.</li>
+        <li>Reduced manual screening effort by ranking candidates based on relevance and skill alignment.</li>
+      </ul>
+    </div>
 
-- **Ghulam Ishaq Khan Institute (GIKI)** — BSc Data Science, Jun 2025  
-  Relevant Coursework: Parallel Processing, Data Engineering, Generative AI, NLP, Data Mining, Data Structures, AI, Databases, Inferential Statistics, Data Warehousing, Data Network & Security
+    <!-- Coin Canvas -->
+    <div class="content-card">
+      <h3>
+        <a href="https://github.com/zainnofal/Coin-Canvas" target="_blank" rel="noopener">
+          Coin Canvas
+        </a>
+      </h3>
+      <em>2023–2024</em>
+      <ul>
+        <li>Developed a cryptocurrency analytics platform using web scraping for real-time and historical data collection.</li>
+        <li>Automated ETL pipelines to gather and process three years of historical crypto data.</li>
+        <li>Designed three interactive Power BI dashboards for market trends and decision-making.</li>
+      </ul>
+    </div>
 
-</section>
+    <!-- InvestiSight -->
+    <div class="content-card">
+      <h3>
+        <a href="https://github.com/zainnofal/InvestiSight" target="_blank" rel="noopener">
+          InvestiSight
+        </a>
+      </h3>
+      <em>2024</em>
+      <ul>
+        <li>Built an NLP-driven system to extract key insights from financial analyst reports.</li>
+        <li>Fine-tuned the DistilRoBERTa model using Hugging Face’s Inference API for large-scale text processing.</li>
+        <li>Deployed a Flask-based web application for real-time financial report analysis.</li>
+      </ul>
+    </div>
 
-<section class="fade-in card">
-# 🎯 Skills & Interests
-
-**Skills:** Python, Data Analysis, Machine Learning, Generative AI, Data Visualization, NLP, Web Scraping, C++, Data Engineering, SQL/NoSQL  
-**Interests:** AI, Data Science, Programming, Piano, Debating, Basketball
-</section>
-
-<section class="fade-in card">
-# 🎭 Co-Curricular Activities
-
-- **Character Building Society (General Secretary)** — Feb 2022 – Jun 2025  
-  Led TEDxGIKI and Masterchef x GIKI events with 200+ student turnout.  
-
-- **GIKI Debate Team (Executive Member)** — Feb 2023 – Jun 2025  
-  Participated in national debating tournaments, enhancing **research, argumentation, and teamwork** skills.
-</section>
+  </div>
 
 </div>
+```

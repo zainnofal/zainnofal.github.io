@@ -1,20 +1,24 @@
 project:
   type: website
-  output-dir: docs
 
 website:
-  title: "Zain Nofal"
+  title: ""
   navbar:
+    background: transparent
+    left:
+      - text: Home
+        href: index.qmd
+      - text: Education & Experience
+        href: about.qmd
+      - text: Projects
+        href: projects.qmd
     right:
-      - about.qmd
-      - projects.qmd
-      - index.qmd
+      - icon: github
+        href: https://github.com/zainnofal
+      - icon: linkedin
+        href: https://linkedin.com/in/zainnofal
 
 format:
   html:
-    theme: cosmo
     css: styles.css
-    toc: true
-
-
-
+    toc: false
