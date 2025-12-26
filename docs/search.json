@@ -2,50 +2,22 @@
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About Me",
+    "title": "",
     "section": "",
-    "text": "I am currently pursuing a Master of Data Science at the University of British Columbia (UBC). I recently graduated with a BSc in Data Science from GIKI.\nI have hands-on experience in machine learning, NLP, Python, data analysis, data visualization, data engineering, and Power BI through multiple academic projects and internships. I’ve interned at KPMG and Dynamic Solutions, working on data governance, dashboards, and NLP applications.\nI am passionate about leveraging data science to solve real-world problems, with particular interest in elections transparency, automation, and sports analytics.\n\n\n\n\n\nUniversity of British Columbia (UBC) — MSc Data Science (Pursuing)\n\nGhulam Ishaq Khan Institute (GIKI) — BSc Data Science\n\n\n\n\n\n\n\nKPMG — Data Governance & Reporting\n\nDynamic Solutions — Data Analytics, Power BI & NLP Applications"
-  },
-  {
-    "objectID": "about.html#education",
-    "href": "about.html#education",
-    "title": "About Me",
-    "section": "",
-    "text": "University of British Columbia (UBC) — MSc Data Science (Pursuing)\n\nGhulam Ishaq Khan Institute (GIKI) — BSc Data Science"
-  },
-  {
-    "objectID": "about.html#internships-experience",
-    "href": "about.html#internships-experience",
-    "title": "About Me",
-    "section": "",
-    "text": "KPMG — Data Governance & Reporting\n\nDynamic Solutions — Data Analytics, Power BI & NLP Applications"
+    "text": "Education & Experience\n  \n\n  \n\n    \n      Education\n\n      \n        University of British Columbia, Vancouver\n        Master of Data Science, Sep 2025 – Jul 2026\n      \n\n      \n        Ghulam Ishaq Khan Institute (GIKI), Pakistan\n        Bachelor of Data Science, Sep 2021 – Jun 2025\n      \n    \n\n    \n      Experience\n\n      \n        Dynamic Solutions & Technology\n        BI Intern · Jul 2024 – Sep 2024\n      \n\n      \n        Developed Power BI dashboards for churn and HR analytics using advanced DAX.\n        Built a resume screening application using BERT-based NLP models.\n        Delivered ERP analytics insights through interactive visualizations.\n      \n\n      \n        KPMG\n        IT & Advisory Intern · Jul 2023 – Aug 2023\n      \n\n      \n        Designed data warehousing and governance workflows.\n        Supported DAMA-DMBOK knowledge transfer initiatives.\n      \n    \n\n    \n      Skills\n\n      \n        Python, Machine Learning, NLP, Generative AI\n        Data Engineering, Apache Spark, SQL/NoSQL\n        Docker, Flask, React, Power BI"
   },
   {
     "objectID": "projects.html",
     "href": "projects.html",
-    "title": "Projects & Experience",
+    "title": "",
     "section": "",
-    "text": "🏆 Selected Projects\n\n\nCurveBall — Cricket Analytics & Genetic Algorithm\nSep 2024 – Jun 2025 | GIKI\n- Developed a cricket analytics system with T20/ODI score predictors, genetic algorithm-based team generator, and video analytics using scikit-learn, OpenCV, NumPy.\n- Built an interactive dashboard for real-time tracking, match simulation, and player analytics.\n- Integrated an AI-powered chatbot and ML models for score prediction and team optimization.\n\n\nSentiment-Driven Stock Prediction\nSep 2024 – Jan 2025 | GIKI\n- Scraped DAWN News headlines to calculate sentiment scores and combined with HBL stock prices.\n- Trained an LSTM model to predict stock trends and generated interactive time series visualizations.\n\n\nCoin Canvas — Cryptocurrency Analytics\nSep 2023 – Jan 2024 | GIKI\n- Implemented web scraping for real-time and historical cryptocurrency data.\n- Built 3 interactive dashboards in Power BI for actionable insights.\n\n\nInvestiSight — Financial Report NLP\nMay 2024 – Jun 2024 | Personal Project\n- Extracted key insights from financial analyst reports using DistilRoBERTa and deployed a Flask app for real-time analysis.\n\n\nAI Interview Coach\nFeb 2025 – Apr 2025 | GIKI\n- Developed a voice-driven AI interview coach with OpenAI Whisper, TTS, GPT evaluation, Flask backend, and React frontend.\n- Enabled role-specific customization and real-time feedback for job interview preparation.\n\n\nPredicting Crime Hotspots in Chicago\nFeb 2025 – Apr 2025 | GIKI\n- Analyzed 7.8M+ crime records with Apache Spark and performed temporal/spatial feature engineering.\n- Applied K-Means clustering for high-density hotspot detection.\n- Delivered actionable insights to support public safety planning.\n\n\nVancouver Crime Predictor\nNov 2025 – Dec 2025 | UBC\n- Built a reproducible ML pipeline using Docker & Docker Compose for environment-agnostic execution on 530,000+ crime records.\n- Preprocessed data and engineered features for temporal and spatial analysis.\n- Trained and compared Logistic Regression, KNN, SVM models to classify crime types.\n- Generated insights & visualizations to aid resource allocation and documented workflow reproducibly."
+    "text": "Projects\n  \n\n  \n\n    \n    \n      \n        CurveBall — Cricket Analytics Platform\n      \n      2024–2025 · Final Year Project\n      \n        Built a full-stack cricket analytics web application featuring T20/ODI score prediction and genetic algorithm-based team selection.\n        Implemented machine learning models using scikit-learn and NumPy for performance prediction and team optimization.\n        Integrated OpenCV-based video analytics for batting and bowling performance analysis.\n        Designed interactive dashboards and an AI-powered chatbot for match simulations and player insights.\n      \n    \n\n    \n    \n      \n        \n          Vancouver Crime Predictor\n        \n      \n      2025\n      \n        Built a reproducible machine learning pipeline using Docker and Docker Compose to analyze 530,000+ Vancouver crime records.\n        Performed data preprocessing and feature engineering, including temporal and spatial feature extraction.\n        Trained and compared Logistic Regression, KNN, and SVM models for crime type classification.\n        Generated actionable insights and visualizations to support data-driven resource allocation strategies.\n      \n    \n\n    \n    \n      \n        \n          AI Interview Coach\n        \n      \n      2025\n      \n        Developed a fully voice-driven AI interview coaching system that conducts mock interviews and provides real-time feedback.\n        Integrated OpenAI Whisper for speech-to-text, Text-to-Speech for natural interaction, and GPT-based evaluation.\n        Built a Flask backend and React frontend to manage audio processing, interview logic, and AI inference.\n        Enabled role-specific interview customization and precise response timing controls.\n      \n    \n\n    \n    \n      \n        \n          Predicting Crime Hotspots in Chicago\n        \n      \n      2025\n      \n        Analyzed 7.8M+ crime records from the Chicago Police Department using Apache Spark.\n        Performed large-scale data preprocessing and temporal feature extraction.\n        Applied K-Means clustering on geospatial coordinates to identify high-density crime hotspots.\n        Produced hotspot visualizations and trend analyses to support public safety planning.\n      \n    \n\n    \n    \n      \n        \n          Sentiment-Driven Stock Prediction\n        \n      \n      2024–2025\n      \n        Built a sentiment analysis pipeline by scraping DAWN News headlines and computing sentiment scores.\n        Integrated sentiment features with HBL stock price data to construct a time-series dataset.\n        Trained LSTM models to evaluate the impact of news sentiment on stock price movements.\n        Developed interactive visualizations to analyze trends and model performance.\n      \n    \n\n    \n    \n      \n        \n          Resume Screener Application\n        \n      \n      2024\n      \n        Built an automated resume screening system using BERT-based NLP models.\n        Implemented semantic similarity scoring to match resumes against job descriptions.\n        Designed preprocessing pipelines for resume text extraction, cleaning, and embedding generation.\n        Reduced manual screening effort by ranking candidates based on relevance and skill alignment.\n      \n    \n\n    \n    \n      \n        \n          Coin Canvas\n        \n      \n      2023–2024\n      \n        Developed a cryptocurrency analytics platform using web scraping for real-time and historical data collection.\n        Automated ETL pipelines to gather and process three years of historical crypto data.\n        Designed three interactive Power BI dashboards for market trends and decision-making.\n      \n    \n\n    \n    \n      \n        \n          InvestiSight\n        \n      \n      2024\n      \n        Built an NLP-driven system to extract key insights from financial analyst reports.\n        Fine-tuned the DistilRoBERTa model using Hugging Face’s Inference API for large-scale text processing.\n        Deployed a Flask-based web application for real-time financial report analysis."
   },
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Zain Nofal | Data Scientist",
+    "title": "\nI’m Zain Nofal\n",
     "section": "",
-    "text": "I am currently pursuing a Master of Data Science at the University of British Columbia (UBC). I recently graduated with a BSc in Data Science from GIKI.\nI have hands-on experience in machine learning, NLP, Python, data analysis, data visualization, data engineering, and Power BI through multiple academic projects and internships. I’ve interned at KPMG and Dynamic Solutions, working on data governance, dashboards, and NLP applications.\nI am passionate about leveraging data science to solve real-world problems, with particular interest in elections transparency, automation, and sports analytics."
-  },
-  {
-    "objectID": "index.html#education",
-    "href": "index.html#education",
-    "title": "Zain Nofal | Data Scientist",
-    "section": "🎓 Education",
-    "text": "🎓 Education\n\nUniversity of British Columbia (UBC) — MSc Data Science (Pursuing)\n\nGhulam Ishaq Khan Institute (GIKI) — BSc Data Science"
-  },
-  {
-    "objectID": "index.html#internships-experience",
-    "href": "index.html#internships-experience",
-    "title": "Zain Nofal | Data Scientist",
-    "section": "💼 Internships & Experience",
-    "text": "💼 Internships & Experience\n\nKPMG — Data Governance & Reporting\n\nDynamic Solutions — Data Analytics, Power BI & NLP Applications"
+    "text": "Hello! 👋\n\n\nI’m Zain Nofal\n\n\nData Scientist · Machine Learning · NLP\n\n\n\nI’m a Master of Data Science student at the University of British Columbia, with experience across machine learning, NLP, data engineering, and applied analytics.\n\n\nI enjoy building practical systems, especially in sports analytics, automation, and socially impactful data applications."
   }
 ]
